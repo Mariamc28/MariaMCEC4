@@ -41065,7 +41065,7 @@ var App = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("center", null, /*#__PURE__*/React.createElement("h1", null, "EC4 - GARCIA TITO"), /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Pagina Colegio"), /*#__PURE__*/React.createElement("div", {
         className: "row"
       }, /*#__PURE__*/React.createElement("div", {
         style: {
@@ -41078,7 +41078,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Alumno",
-        emoji: "\uD83C\uDFEB"
+        emoji: "\uD83D\uDE4B\u200D\u2642\uFE0F"
       }), /*#__PURE__*/React.createElement(AlumnosList, {
         alumnos: this.state.alumnos
       }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement(Link, {
@@ -41096,12 +41096,12 @@ var App = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Colegio",
-        emoji: "\uD83D\uDC68\u200D\uD83C\uDF93"
+        emoji: "\uD83D\uDC68\u270D\uFE0F"
       }), /*#__PURE__*/React.createElement(ColegioList, {
         colegios: this.state.colegios
       }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement(Link, {
         to: "/nuevo-colegio"
-      }, "Nuevo Colegio"))))));
+      }, "Nuevo Colegio")))));
     }
   }]);
   return App;
@@ -41125,9 +41125,9 @@ var AlumnosList = /*#__PURE__*/function (_React$Component2) {
           alumno: alumno
         });
       });
-      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("center", null, /*#__PURE__*/React.createElement("table", {
+      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("table", {
         border: "1"
-      }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("th", null, "Nombres"), /*#__PURE__*/React.createElement("th", null, "Apellidos"), /*#__PURE__*/React.createElement("th", null, "Grado"), /*#__PURE__*/React.createElement("th", null, "Acciones")), alumnos))));
+      }, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("th", null, "Nombres"), /*#__PURE__*/React.createElement("th", null, "Apellidos"), /*#__PURE__*/React.createElement("th", null, "Grado"), /*#__PURE__*/React.createElement("th", null, "Acciones")), alumnos)));
     }
   }]);
   return AlumnosList;

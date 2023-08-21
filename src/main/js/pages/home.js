@@ -21,12 +21,12 @@ class App extends React.Component {
     render() {
         return (
             <>
-                <center>
-                    <h1>EC4 - GARCIA TITO</h1>
+                
+                    <h1>Pagina Colegio</h1>
                     <div className='row'>
                         <div style={{ "width": "100%", "display": "flex" }}>
                             <div style={{ "width": "calc(100%/1)" }} >
-                                <Titulo entidad="Alumno" emoji="🏫" />
+                                <Titulo entidad="Alumno" emoji="🙋‍♂️" />
                                 <AlumnosList alumnos={this.state.alumnos} />
                                 <br></br>
                                 <Link to="/nuevo-alumno">Nuevo Alumno</Link>
@@ -36,7 +36,7 @@ class App extends React.Component {
                     <div className='row'>
                         <div style={{ "width": "100%", "display": "flex" }}>
                             <div style={{ "width": "calc(100%/1)" }} >
-                                <Titulo entidad="Colegio" emoji="👨‍🎓" />
+                                <Titulo entidad="Colegio" emoji="👨✍️" />
                                 <ColegioList colegios={this.state.colegios} />
                                 <br></br>
                                 <Link to="/nuevo-colegio">Nuevo Colegio</Link>
@@ -44,7 +44,7 @@ class App extends React.Component {
                         </div>
                     </div>
 
-                </center>
+                
 
             </>
         )
@@ -69,7 +69,7 @@ class AlumnosList extends React.Component {
         );
         return (
             <>
-                <center>
+                
                     <table border="1">
                         <tbody>
                             <tr>
@@ -81,7 +81,7 @@ class AlumnosList extends React.Component {
                             {alumnos}
                         </tbody>
                     </table>
-                </center>
+                
 
             </>
         )

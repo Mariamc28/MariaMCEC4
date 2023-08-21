@@ -23,24 +23,21 @@ public class DatabaseLoader implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 
-		Alumno Alum1 = new Alumno("Reynaldo", "Garcia Tito", "5to");
+		Alumno Alum1 = new Alumno("Maria", "Muñoz Castrejon", "6to");
 		this.repositoryAlumno.save(Alum1);
-		Alumno Alum2 = new Alumno("Joel", "Perez Aguilar", "4to");
+		Alumno Alum2 = new Alumno("Joel", "chavez wilmer", "7mo");
 		this.repositoryAlumno.save(Alum2);
-		Alumno Alum3 = new Alumno("Gustavo", "Ruiz Diaz", "6to");
+		Alumno Alum3 = new Alumno("Alfonso", "Gerrero Ruiz", "5to");
 		this.repositoryAlumno.save(Alum3);
-		Alumno Alum4 = new Alumno("Bayron", "Cotrina Cuaresma", "5to");
+		Alumno Alum4 = new Alumno("Richard", "Apolinar Muñoz", "5to");
 		this.repositoryAlumno.save(Alum4);
-		Alumno Alum5 = new Alumno("Jhimmy", "Clemente Lucas", "5to");
-		this.repositoryAlumno.save(Alum5);
-		Alumno Alum6 = new Alumno("JeanPierre", "Elias Rivas", "4to");
-		this.repositoryAlumno.save(Alum6);
+		
 
-		Colegio Col1 = new Colegio("Maristas");
+		Colegio Col1 = new Colegio("Jesus Divino");
 		this.repositoryColegio.save(Col1);
-		Colegio Col2 = new Colegio("Saco Oliverios");
+		Colegio Col2 = new Colegio("Sinchi roca");
 		this.repositoryColegio.save(Col2);
-		Colegio Col3 = new Colegio("Prolog");
+		Colegio Col3 = new Colegio("Paraido Florido");
 		this.repositoryColegio.save(Col3);
 
 		Matricula Mat1 = new Matricula(Col1, Alum1);
